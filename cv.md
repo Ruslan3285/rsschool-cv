@@ -25,7 +25,7 @@ I am a beginner frontend developer. I am constantly learning something new and d
 
 ## Code Example
 
-'''
+```
 int fMin(int arr[], int amount) {
     int minValue = arr[0];
     for (int i = 0; i < amount; i ++) {
