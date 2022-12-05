@@ -1,4 +1,6 @@
-# Tanchin Ruslan ![Avatar](/5koC3FSj-rI.jpg "My avatar")
+# Tanchin Ruslan ![Avatar]
+
+(/5koC3FSj-rI.jpg "My avatar")
 
 ## Junior Front-End Developer
 
