@@ -1,0 +1,204 @@
+:root {
+    --dark-gray-color: #505050;
+    --ligth-gray-color: #777777;
+    --orange-color: #fcac24;
+  }
+
+    .page__body {
+        box-sizing: border-box;
+        background-color: #6a635e;
+        font-family: "Arial", sans-serif;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .page-section {
+        margin: 10px auto 0 auto;
+        width: 1024px;
+        background-color: #fce0a6;
+        box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+    }
+
+    .page-columns {
+        display: flex;
+        color: var(--dark-gray-color);
+    }
+
+    .left-column {
+        width: 40%;
+        background-color: var(--orange-color);
+    }
+
+    .right-column {
+        width: 50%;
+        padding: 40px;
+    }
+
+    .left-column__header {
+        padding: 50px;
+        text-align: center;
+        background-color: #faf1d0;
+    }
+
+    .left-column__image {
+        margin-bottom: 20px;
+        border: 15px solid var(--orange-color);
+        border-radius: 50%;
+        box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+    }
+
+    .left-column__title {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 1.5;
+        letter-spacing: 15px;
+        text-transform: uppercase;
+
+        margin-bottom: 10px;
+    }
+
+    .left-column__subtitle {
+        margin-bottom: 20px;
+        letter-spacing: 5px;
+    }
+
+    .left-column__main {
+        padding: 0 20px;
+    }
+
+    .main-title {
+        width: 200px;
+        margin: 40px auto 20px;
+        padding: 5px 20px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #ffffff;
+        background-color: var(--dark-gray-color);
+        box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+    }
+
+    .main-contacts__title--first {
+        margin-top: 0;
+        margin-bottom: 0;
+        transform: translate(0, -50%);
+    }
+
+    .main-item {
+        margin-bottom: 10px;
+        list-style: none;
+    }
+
+
+    .main-image {
+        vertical-align: middle;
+        margin-right: 15px;
+    }
+
+    .main-text {
+        display: inline;
+        vertical-align: middle;
+    }
+
+    .main-text--bold {
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .contacts-list--align {
+        padding-left: 65px;;
+    }
+
+    .skills-list--align,
+    .languages-list--align {
+        text-align: center;
+        padding-right: 40px;
+    }
+
+    .right-subheader {
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    .right-subheader--first {
+        margin-top: 0;
+    }
+
+    .right-title {
+        margin: 0;
+        flex: 1;
+        vertical-align: middle;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: var(--ligth-gray-color);
+        border-bottom: 2px solid var(--ligth-gray-color);
+    }
+
+    .right-image {
+        vertical-align: middle;
+        margin-right: 15px;
+    }
+
+    .right-text {
+        color: var(--ligth-gray-color);
+        margin-left: 45px;
+    }
+
+    .right-list {
+        list-style-type: disc;
+        margin-left: 45px;
+        margin-bottom: 30px;
+    }
+
+    .right-item {
+        list-style: none;
+        line-height: 2;
+    }
+
+    .right-link {
+        color: var(--ligth-gray-color);
+        text-decoration: none;
+    }
+
+    .right-text__margin {
+        margin-bottom: 80px;
+    }
+
+    code {
+        color:#f8f8f2;
+        padding: 4px 5px 5px;
+        font-size: 12px;
+    }
+
+    pre {
+        background-color: var(--dark-gray-color);
+        border-radius: 0.3em;
+        box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+    }
+
+    .page-footer {
+        margin: 0px auto 20px auto;
+        width: 984px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        font-size: 0.8rem;
+        color: #ffffff;
+        background-color: var(--dark-gray-color);
+    }
+
+    .my-github {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .github-icon {
+        margin-right: 10px;
+    }
+
+
