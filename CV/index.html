@@ -9,7 +9,7 @@
 </head>
 
 <body class="page__body">
-    <section class="page-section">
+    <div class="page-section">
         <div class="page-columns">
             <div class="left-column">
 
@@ -61,12 +61,12 @@
                             <li class="main-item">
                                 <p class="main-text main-text--bold">English</p>
                                 <p class="main-text">Intermediate</p>
-                            </li class="main-item">
+                            </li>
 
                             <li class="main-item">
                                 <p class="main-text main-text--bold">Russian</p>
                                 <p class="main-text">Basic</p>
-                            </li class="main-item">
+                            </li>
                         </ul>
                     </section>
                 </main>
@@ -123,7 +123,7 @@
                             swapped = false;
                             for (int i = size-1; i > 0; i--)
                             {
-                                if (arr[i - 1] < arr[i])
+                                if (arr[i - 1] &lt; arr[i])
                                 {
                                 int temp = arr[i - 1];
                                 arr[i - 1] = arr[i];
