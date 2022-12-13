@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html class="page" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruslan Tanchin Rsschool-cv-html</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="page__body">
+    <section class="page-section">
+        <div class="page-columns">
+            <div class="left-column">
+
+                <header class="left-column__header">
+                    <img class="left-column__image" src="./images/avatar.jpg" alt="Portrait" width="204" height="204">
+
+                    <h1 class="left-column__title">Ruslan Tanchin</h1>
+
+                    <h2 class="left-column__subtitle">Junior Front-End Developer</h2>
+                </header>
+
+                <main class="left-column__main">
+
+                    <section class="main-contacts">
+                        <h3 class="main-title main-contacts__title--first">Contacts</h3>
+                        <ul class="main-list contacts-list--align">
+                            <li class="main-item">
+                                <img class="main-image" src="./icons/lokation.svg" alt="Lokation" width="30" height="30">
+                                <p class="main-text">Russia, Petrozavodsk</p>
+                            </li>
+
+                            <li class="main-item">
+                                <img class="main-image" src="./icons/phone.svg" alt="Phone" width="30" height="30">
+                                <p class="main-text">+7 (911) 412-14-00</p>
+                            </li>
+
+                            <li class="main-item">
+                                <img class="main-image" src="./icons/email.svg" alt="Email" width="30" height="30">
+                                <p class="main-text">rustan97@mail.ru</p>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section class="main-skills">
+                        <h3 class="main-title">Skills</h3>
+
+                        <ul class="main-list skills-list--align">
+                            <li class="main-item">HTML</li>
+                            <li class="main-item">CSS3</li>
+                            <li class="main-item">C#</li>
+                            <li class="main-item">C++</li>
+                        </ul>
+                    </section>
+
+                    <section class="languages">
+                        <h3 class="main-title">Languages</h3>
+
+                        <ul class="main-list languages-list--align">
+                            <li class="main-item">
+                                <p class="main-text main-text--bold">English</p>
+                                <p class="main-text">Intermediate</p>
+                            </li class="main-item">
+
+                            <li class="main-item">
+                                <p class="main-text main-text--bold">Russian</p>
+                                <p class="main-text">Basic</p>
+                            </li class="main-item">
+                        </ul>
+                    </section>
+                </main>
+            </div>
+
+            <div class="right-column">
+
+                <section class="about-myself">
+                    <div class="right-subheader right-subheader--first">
+                        <img class="right-image" src="./icons/myself.svg" alt="About Myself Icon" width="30" height="30">
+                        <h3 class="right-title">About Myself</h3>
+                    </div>
+
+                    <p class="right-text right-text--margin">I am a beginner frontend developer. I am constantly learning something new and developing in
+                        different areas. So I started learning different programming languages.
+                        I am already familiar with the basics of C++ and C#.</p>
+                </section>
+
+                <section class="education">
+                    <div class="right-subheader">
+                        <img class="right-image" src="./icons/education.svg" alt="Education Icon" width="30" height="30">
+                        <h3 class="right-title">Education</h3>
+                    </div>
+
+                    <p class="right-text"><strong>Petrozavodsk State University </strong></p>
+
+                    <p class="right-text">Bachelor of Science in Electricity and Electrical Engineering</p>
+                </section>
+
+                <section class="courses">
+                    <div class="right-subheader">
+                        <img class="right-image" src="./icons/courses.svg" alt="Courses" width="30" height="30">
+                        <h3 class="right-title">Courses</h3>
+                    </div>
+
+                    <ul class="right-list">
+                        <li class="right-item"><a class="right-link" href="https://htmlacademy.ru">HTML Academy</a></li>
+                        <li class="right-item"><a class="right-link" href="https://netology.ru">Netology</a></li>
+
+                    </ul>
+                </section>
+
+                <section class="code-example">
+                    <div class="right-subheader">
+                        <img class="right-image" src="./icons/code.svg" alt="Code Icon" width="30" height="30">
+                        <h3 class="right-title">Code example</h3>
+                    </div>
+                    <p class="right-text right-text__margin">Write a program that creates and initializes
+                    a 10-element unordered array of integers and bubble sorts it backwards</p>
+                    <pre>
+                        <code>
+                            do
+                            {
+                            swapped = false;
+                            for (int i = size-1; i > 0; i--)
+                            {
+                                if (arr[i - 1] < arr[i])
+                                {
+                                int temp = arr[i - 1];
+                                arr[i - 1] = arr[i];
+                                arr[i] = temp;
+                                swapped = true;
+                                }
+                            }
+                            } while (swapped);
+                        </code>
+                    </pre>
+                </section>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer">
+        <a class="my-github" href="https://github.com/Ruslan3285">
+            <img class="github-icon" src="./icons/github.svg" alt="Github Icon" width="26" height="26">
+            <p>Visit my GitHub</p>
+        </a>
+
+        <p>© 2022</p>
+
+        <a href="https://rs.school/js/">
+        <img src="./icons/rsschool.svg" alt="Rsschool Icon" width="73" height="26">
+        </a>
+    </footer>
+</body>
+
+</html>
